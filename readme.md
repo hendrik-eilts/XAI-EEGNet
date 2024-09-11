@@ -1,6 +1,14 @@
 
 # Bridging the Gap: Explainable AI Insights Into EEGNet Classification and Its Alignment to Neural Correlates
 
+## What is it about?
+
+This thesis applies Concept Relevance Propagation (CRP), an eXplainable AI method, to the EEGNet classifier and three EEG datasets (motor imagery, auditory attention, internal vs. external attention). The aim is to establish a link between the concepts learned by the models and the neural correlates of the respective tasks, thereby bridging the gap in explainability between ML and neuroscience. Relevances were computed on individual filters of a convolutional layer, clustering was conducted on these filters to identify common patterns among subjects, and these clusters were further analyzed in the frequency domain using topographic maps. 
+
+Additionally, the relevance computed by CRP was combined with Independdent Component Analysis in a novel approach, providing relevance values for neural and non-neural sources of the EEG signal. Finally, functional grouping was applied to quantify the results. The brain regions and frequency bands identified by the method largely align with the existing literature.
+
+This study represents a step towards a deeper understanding of how DL models decode EEG signals and offers insights into neural correlates in a human-understandable manner.
+
 ## Overview
 
 This repository consists of 6 main files:
