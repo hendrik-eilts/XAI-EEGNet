@@ -1,5 +1,4 @@
-
-# Bridging the Gap: Explainable AI Insights Into EEGNet Classification and Its Alignment to Neural Correlates
+# Explainable AI Insights Into EEG Classification and Its Alignment to Neural Correlates
 
 ## What is it about?
 
