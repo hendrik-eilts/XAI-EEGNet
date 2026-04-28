@@ -1,5 +1,11 @@
 # Explainable AI Insights Into EEG Classification and Its Alignment to Neural Correlates
 
+## Citation
+
+If you use this work, please cite it as:
+
+Eilts, H., G.Ivucic, N.Koenen, M. N.Wright, T.Schultz, and F.Putze. 2026. “Explainable AI Insights Into EEG Classification and Its  to Neural Correlates.” Human Brain Mapping47, . 6: e70528. https://doi.org/10.1002/hbm.70528.
+
 ## What is it about?
 
 This thesis applies Concept Relevance Propagation (CRP), an eXplainable AI method, to the EEGNet classifier and three EEG datasets (motor imagery, auditory attention, internal vs. external attention). The aim is to establish a link between the concepts learned by the models and the neural correlates of the respective tasks, thereby bridging the gap in explainability between ML and neuroscience. Relevances were computed on individual filters of a convolutional layer, clustering was conducted on these filters to identify common patterns among subjects, and these clusters were further analyzed in the frequency domain using topographic maps. 
